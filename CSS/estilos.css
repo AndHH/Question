@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background: cadetblue;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 60px;
+    padding: 10%;
+}
+
+button{
+    font-size: 35px;
+    height: 70px;
+    width: 100px;
+    background: none;
+    border-radius: 30%;
+}
+Button a{
+    text-decoration-line:none ;
+    color: black;
+}
+
+#yesBtn:hover {
+    background-color: rgba(0, 0, 0, 0.4);    
+}
+
+#yesBtn a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#yesBtn{
+    transform: translate(-80%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
